@@ -1,6 +1,7 @@
 # Snowflake generates  ID
 The snowflake algorithm generates  ID
 
+## Spring boot Demo
 ```java
 @Controller
 @RequestMapping(value="/demo")
@@ -18,4 +19,11 @@ public class DemoController {
         return "demo/index";
     }
 }
+```
+## application.yml
+```properties
+mark:
+    snowflake:
+        machine-id: 1
+        data-center-id: 1
 ```
