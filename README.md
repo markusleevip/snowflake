@@ -27,3 +27,11 @@ mark:
         machine-id: 1
         data-center-id: 1
 ```
+## pom.xml
+```xml
+<dependency>
+    <groupId>com.mark</groupId>
+    <artifactId>snowflake</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+</dependency>
+```
